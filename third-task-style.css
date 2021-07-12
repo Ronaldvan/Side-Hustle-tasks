@@ -1,0 +1,50 @@
+                        body {
+                            background-image: url('Images/brown-image.jpeg');
+                            position: relative;
+                        }
+                        
+                        .container {
+                            background-image: url('Images/brown-image.jpeg');
+                            width: 100px;
+                            height: 450px;
+                            border: 3px solid white;
+                            position: absolute;
+                            margin-top: 15%;
+                            margin-right: 25%;
+                            margin-bottom: 25%;
+                            margin-left: 25%;
+                            width: 50%;
+                            box-shadow: 50px;
+                        }
+                        
+                        .container h1 {
+                            text-align: center;
+                            color: white;
+                            font-family: Arial sans-serif;
+                            font-size: 45px;
+                        }
+                        
+                        .container #counterValue {
+                            color: green;
+                            font-family: Arial sans-serif;
+                            font-weight: 70px;
+                            font-size: 160px;
+                            margin-top: 0px;
+                            margin-bottom: 0px;
+                            text-align: center;
+                        }
+                        
+                        .container button {
+                            background-color: rgb(35, 35, 85);
+                            color: white;
+                            text-align: center;
+                            margin: 0% 27%;
+                            width: 45%;
+                            padding: 11px;
+                            border-radius: 10px;
+                        }
+                        
+                        button:hover {
+                            background: white;
+                            color: black;
+                        }
